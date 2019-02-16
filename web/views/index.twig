@@ -2,38 +2,132 @@
 
 {% block content %}
 
-<div class="container">
-  <table class="table" style="color: blue; right: 0;bottom: 0; position:absolute;>
-    <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">1st</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>Bird</td>
-      <td>@twitter</td>
-    </tr>
-    </tbody>
-  </table>
+   <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            .mySlides {display:none;}
+        </style>
+    </head>
+
+    <body>
+
+    <h2 class="w3-center">Top 5 Ecommerce Sites in the World</h2>
+
+    <div class="w3-content w3-section" style="width:1000px; max-width:100%; height: 700px; max-height: 100%">
+        <img class="mySlides" src="https://technoflix.com/wp-content/uploads/worlds-top-10-ecommerce-websites-2018.jpg" style="width:100%; height:100%">
+        <img class="mySlides" src="https://www.sosmediacorp.com/wp-content/uploads/Own-One-of-Todays-Best-E-commerce-Websites.png" style="width:100%; height:100%">
+        <img class="mySlides" src="https://s3.amazonaws.com/logicwebmedia/wp-content/uploads/20180418214223/graphic-amazon-browser-ecommerce-shopping.jpg" style="width:100%; height:100%">
+    </div>
+    <div>
+
+    </div>
+    <div>
+        <p style="text-align: justify; padding: 20px; font-family: 'DejaVu Serif'; font-size: large; color: darkblue">
+            E-commerce is the activity of buying or selling of products on online services or over the Internet. Electronic commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange (EDI), inventory management systems, and automated data collection systems.
+        </p>
+        <p style="text-align: justify; padding: 20px; font-family: 'DejaVu Serif'; font-size: large; color: darkblue">
+            Modern electronic commerce typically uses the World Wide Web for at least one part of the transaction's life cycle although it may also use other technologies such as e-mail. Typical e-commerce transactions include the purchase of online books (such as Amazon) and music purchases (music download in the form of digital distribution such as iTunes Store), and to a less extent, customized/personalized online liquor store inventory services.[1] There are three areas of e-commerce: online retailing, electric markets, and online auctions. E-commerce is supported by electronic business.[2]
+        </p>
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+        }
+    </script>
+
+    </body>
+    </html>
+    </div>
+    <div style="background-color: whitesmoke;">
+        <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">AMAZON</th>
+            <th scope="col">EBAY</th>
+            <th scope="col">ASOS</th>
+            <th scope="col">WALMART</th>
+            <th scope="col">ETSY</th>
+        </tr>
+        </thead>
+        <tbody style="font-size:large;font-family: 'DejaVu Serif'; text-align: justify; color: darkblue">
+        <tr>
+            <th scope="row">1</th>
+            <td><img src="https://images-na.ssl-images-amazon.com/images/G/01/SellerCentral/legal/amazon-logo_transparent._CB303899249_.png" alt="Amazon" height="60" width="100">
+            </td>
+            <td><img src="https://cdn.steemitimages.com/DQmf4V6S6AT9ERM2mJPcsE1ngnb27QYGW2rrZh6pSnwEc91/ebay.gif" alt="Ebay" height="60" width="100">
+            </td>
+            <td><img src="http://pluspng.com/img-png/asos-png-and-offline-campaigns-for-asos-as-as-a-pop-up-shop-we-have-decided-the-shop-should-feature-a-range-of-fashion-items-directional-items-and-basic-to-300.png" alt="Asos" height="60" width="100">
+            </td>
+            <td><img src="https://bloximages.newyork1.vip.townnews.com/brownsvilleherald.com/content/tncms/assets/v3/editorial/8/3b/83bfbaf8-bbac-11e5-977a-03b00e4bcdc3/56992adc6c685.image.jpg?resize=500%2C300" alt="Walmart" height="60" width="100">
+            </td>
+            <td><img src="https://s3.amazonaws.com/i.seelio.com/fd/e0/fde0e787fda7e76f25acae27f87418925623_l.png" alt="Etsy" height="60" width="100"></td>
+        </tr>
+        <tr >
+            <th scope="row">2</th>
+            <td>It is known as the most famous and positioned as the biggest online retailer in the entire world and not simply in the Assembled States.
+            </td>
+            <td>It is a standout amongst the most prominent online sale and shopping sites that can be found in the entire world.
+            </td>
+            <td>It is the biggest online retail location in the Unified Kingdom that has practical experience in displaying everything identified with excellence and design including frill, men's and ladies' wear.
+            </td>
+            <td>Walmart Inc. is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores.
+            </td>
+            <td>It was propelled in 2005 and is situated in Brooklyn, New York City, Joined States.
+            </td>
+        </tr>
+        <th scope="row">3</th>
+        <td>It was established in 1994 by Jeff Bezos and is headquartered in Seattle, Washington, Joined States.
+        <td>It was established in 1995 by Pierre Omidyar and is headquartered in San Jose, California, Joined States.
+        </td>
+        <td>t encourages you to limit your pursuit through making utilization of patterns and accumulation includes notwithstanding the capacity to purchase.
+        </td>
+        <td>Headquartered in Bentonville, Arkansas, the company was founded by Sam Walton in 1962 and incorporated on October 31, 1969.
+        </td>
+        <td>This online business site spends significant time in offering diverse vintage, carefully assembled and plant made things that you may need, for example, apparel, adornments, craftsmanship, magnificence items and the sky is the limit from there.
+        </td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td>It began as an online bookshop and immediately expanded to offer all that you require. It furnishes its clients with a few highlights, for example, various simple installment techniques, rebates, speedy checkout, quick conveyance and an extensive    variety of things at great costs.
+            </td>
+            <td>It causes you to purchase and offer diverse items which make this site advantageous for the two purchasers and merchants.
+            </td>
+            <td>It offer pre-claimed garments through the online commercial centre that is exhibited to you.
+            </td>
+            <td>It is an American multinational retailer that furnishes you with all that you may need, for example, gadgets, computer games, home outfitting, garments, gems, toys, autos, endowments, sports and different things at great costs.
+            </td>
+            <td>You have likewise the capacity to check top picks that are picked by other Etsy individuals like you.
+            </td>
+        </tr>
+        <tr style="text-decoration: underline;">
+            <th scope="row">5</th>
+            <td><a href="https://www.amazon.com/">Visit Amazon</a></td>
+            <td><a href="https://www.ebay.com/">Visit Ebay</a></td>
+            <td><a href="https://us.asos.com/">Visit Asos</a></td>
+            <td><a href="https://www.walmart.com/">Visit Walmart</a></td>
+            <td><a href="https://www.etsy.com/">Visit Etsy</a></td>
+        </tr>
+
+        </tbody>
+    </table>
+
+
 </div>
-  <h1 ">sunil</h1>
 
 {% endblock %}
