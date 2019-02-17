@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37ba5c9f-edb1-4210-9e1b-6f2550734f9e" name="Default Changelist" comment="" />
+    <list default="true" id="37ba5c9f-edb1-4210-9e1b-6f2550734f9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/views/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="292">
+              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#p#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,7 +200,7 @@
       <workItem from="1550255851625" duration="5941000" />
       <workItem from="1550263214248" duration="3016000" />
       <workItem from="1550266270558" duration="14257000" />
-      <workItem from="1550363387241" duration="2025000" />
+      <workItem from="1550363387241" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="My change">
       <created>1550108890365</created>
@@ -225,15 +230,28 @@
       <option name="project" value="LOCAL" />
       <updated>1550365024010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Altered Tables and added new styles">
+      <created>1550366328008</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550366328008</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added New Paragraph">
+      <created>1550367348999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550367348999</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39865000" />
+    <option name="totallyTimeSpent" value="41050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="889" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31654677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -265,13 +283,17 @@
     <MESSAGE value="added an image &amp; paragraph" />
     <MESSAGE value="added an image &amp; paragraph -- added container" />
     <MESSAGE value="Altered Tables and added new styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Altered Tables and added new styles" />
+    <MESSAGE value="Added New Paragraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added New Paragraph" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/views/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        <state relative-caret-position="292">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#p#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
